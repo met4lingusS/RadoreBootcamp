@@ -9,6 +9,7 @@ namespace RadoreBootcamp2.SOLID.Orta.Classes
 {
     public class Logger : IDBLog, IJSONLog, IXMLLog, ICSVLog
     {
+        // Bu yöntemi orta olarak kaydetmemdeki sebep, yeni uzantı eklemeyi kolaylaştırmış olsa da hem kayıt etme hem yönlendirme fonksiyonlarını gerçekleştirmesi SRP'ye aykırı olmasına sebep olması
         DBLog dblog;
         JSONLog jsonlog;
         XMLLog xmllog;
