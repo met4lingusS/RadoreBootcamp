@@ -30,6 +30,7 @@ logger.jsonLog("027 nolu kayıt işlendi,");
 logger.csvLog("027 nolu kayıt işlendi,");
 */
 
+/*
 using RadoreBootcamp2.SOLID.Iyi.Classes;
 
 
@@ -43,5 +44,22 @@ logger.toDB("303 nolu hata oluştu,");
 logger.toJSON("027 nolu kayıt işlendi,");
 logger.toXML("404 nolu hata oluştu,");
 logger.toCSV("027 nolu kayıt işlendi,");
+*/
 
+/*
+// Olması gereken çözüm aşağıdadır 
+using RadoreBootcamp2.SOLID.Cozum.Classes;
 
+DBLog dbLog = new DBLog();
+XMLLog xmlLog = new XMLLog();
+
+Logger logger = new Logger(xmlLog);
+
+logger.LogKaydet("027 no'lu hata kodu oluşturuldu,");
+*/
+/*
+using RadoreBootcamp2.Overrides;
+
+Child child = new Child();
+child.yaz();
+*/
