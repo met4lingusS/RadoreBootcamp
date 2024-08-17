@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34C9398A-AA74-426E-BC76-5EF56A335E22}|OdemeFormuV2\\OdemeFormuV2.csproj|c:\\users\\metalinguss\\documents\\datacamp_vault\\csharp\\radore full stack bootcamp\\odemeformuv2\\odemeformuv2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C9398A-AA74-426E-BC76-5EF56A335E22}|OdemeFormuV2\\OdemeFormuV2.csproj|solutionrelative:odemeformuv2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C9398A-AA74-426E-BC76-5EF56A335E22}|OdemeFormuV2\\OdemeFormuV2.csproj|c:\\users\\metalinguss\\documents\\datacamp_vault\\csharp\\radore full stack bootcamp\\odemeformuv2\\odemeformuv2\\models\\odemetipi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C9398A-AA74-426E-BC76-5EF56A335E22}|OdemeFormuV2\\OdemeFormuV2.csproj|solutionrelative:odemeformuv2\\models\\odemetipi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C9398A-AA74-426E-BC76-5EF56A335E22}|OdemeFormuV2\\OdemeFormuV2.csproj|c:\\users\\metalinguss\\documents\\datacamp_vault\\csharp\\radore full stack bootcamp\\odemeformuv2\\odemeformuv2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34C9398A-AA74-426E-BC76-5EF56A335E22}|OdemeFormuV2\\OdemeFormuV2.csproj|solutionrelative:odemeformuv2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\OdemeFormuV2\\Models\\RadoreDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OdemeFormuV2\\Models\\RadoreDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OdemeTipi.cs",
+              "DocumentMoniker": "C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\OdemeFormuV2\\Models\\OdemeTipi.cs",
+              "RelativeDocumentMoniker": "OdemeFormuV2\\Models\\OdemeTipi.cs",
+              "ToolTip": "C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\OdemeFormuV2\\Models\\OdemeTipi.cs",
+              "RelativeToolTip": "OdemeFormuV2\\Models\\OdemeTipi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T00:51:39.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\OdemeFormuV2\\Form1.cs",
+              "RelativeDocumentMoniker": "OdemeFormuV2\\Form1.cs",
+              "ToolTip": "C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\OdemeFormuV2\\Form1.cs",
+              "RelativeToolTip": "OdemeFormuV2\\Form1.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T00:45:31.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RadoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\OdemeFormuV2\\Models\\RadoreDbContext.cs",
+              "RelativeDocumentMoniker": "OdemeFormuV2\\Models\\RadoreDbContext.cs",
+              "ToolTip": "C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\OdemeFormuV2\\Models\\RadoreDbContext.cs",
+              "RelativeToolTip": "OdemeFormuV2\\Models\\RadoreDbContext.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T00:44:24.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\OdemeFormuV2\\Form1.cs",
+              "RelativeDocumentMoniker": "OdemeFormuV2\\Form1.cs",
+              "ToolTip": "C:\\Users\\metalinguss\\Documents\\DataCamp_Vault\\CSharp\\Radore Full Stack Bootcamp\\OdemeFormuV2\\OdemeFormuV2\\Form1.cs [Design]",
+              "RelativeToolTip": "OdemeFormuV2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T00:35:15.71Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
