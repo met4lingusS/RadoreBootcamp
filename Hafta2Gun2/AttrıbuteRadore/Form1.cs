@@ -15,7 +15,7 @@ namespace OdemeFormu
         {
 
         }
-        // Form yüklenirken yapýlmasýný istediðimiz iþleri burada tanýmlarýz
+        // Form yÃ¼klenirken yapÃ½lmasÃ½nÃ½ istediÃ°imiz iÃ¾leri burada tanÃ½mlarÃ½z
         private void Form1_Load(object sender, EventArgs e)
         {
             OdemeTipiGetir();
@@ -24,28 +24,28 @@ namespace OdemeFormu
 
         public void OdemeTipiGetir()
         {
-            string connectionString = @"Data Source=DESKTOP-9A51HHS\METALINGUSS;Initial Catalog=RadoreDB;Integrated Security=SSPI;";
+            string connectionString = @"ConnectionString";
             List<OdemeTipi> odemeTipleri = null;
             using SqlConnection conn = new SqlConnection(connectionString);
             {
                 try
                 {
-                    // Baðlantý açýlmasý
+                    // BaÃ°lantÃ½ aÃ§Ã½lmasÃ½
                     conn.Open();
                     string sorgu = "SELECT * FROM OdemeTipi";
-                    // New Query alanýna eriþim verilen sorgunun oluþturulmasý
+                    // New Query alanÃ½na eriÃ¾im verilen sorgunun oluÃ¾turulmasÃ½
                     SqlCommand sqlCommand = new SqlCommand(sorgu, conn);
-                    // Oluþturulan sorgunun execute edilmesi
+                    // OluÃ¾turulan sorgunun execute edilmesi
                     SqlDataReader reader = sqlCommand.ExecuteReader();
                     odemeTipleri = new List<OdemeTipi>();
                     odemeTipleri.Add(new OdemeTipi()
                     {
                         id = -1,
                         className = "seciniz",
-                        displayName = "Ödeme Tipi Seçiniz"
+                        displayName = "Ã–deme Tipi SeÃ§iniz"
 
                     });
-                    // Read() metodundan true döndüðü sürece -satýrda veri varsa true döner- while daki iþlemleri yapar
+                    // Read() metodundan true dÃ¶ndÃ¼Ã°Ã¼ sÃ¼rece -satÃ½rda veri varsa true dÃ¶ner- while daki iÃ¾lemleri yapar
                     while (reader.Read())
                     {
                         odemeTipleri.Add(new OdemeTipi()
@@ -55,11 +55,11 @@ namespace OdemeFormu
                             displayName = Convert.ToString(reader["DISPLAY_NAME"])
                         });
                     }
-                    // OdemeTipi þeklinde veri alan listenin içinde elemanlarýmýz olacak
+                    // OdemeTipi Ã¾eklinde veri alan listenin iÃ§inde elemanlarÃ½mÃ½z olacak
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Hata oluþtu: {ex.ToString()}");
+                    Console.WriteLine($"Hata oluÃ¾tu: {ex.ToString()}");
                 }
                 finally
                 {
@@ -76,15 +76,15 @@ namespace OdemeFormu
         {
             if (cmbOdemeTipi.SelectedValue.ToString() == "seciniz")
             {
-                MessageBox.Show("Lütfen bir ödeme yöntemi seçiniz.");
+                MessageBox.Show("LÃ¼tfen bir Ã¶deme yÃ¶ntemi seÃ§iniz.");
             }
             else if (txtTutar.Text.Length == 0)
             {
-                MessageBox.Show("Lütfen tutar giriniz.");
+                MessageBox.Show("LÃ¼tfen tutar giriniz.");
             }
             else
             {
-                // Kullanýcýnýn seçtiði ödeme yönteminin karþýlýðý olan className deðerini alýyoruz
+                // KullanÃ½cÃ½nÃ½n seÃ§tiÃ°i Ã¶deme yÃ¶nteminin karÃ¾Ã½lÃ½Ã°Ã½ olan className deÃ°erini alÃ½yoruz
                 string secilenOdemeTipi = cmbOdemeTipi.SelectedValue.ToString();
                 double tutar = Convert.ToDouble(txtTutar.Text);
                 OdemeIslemiFactory factory = new OdemeIslemiFactory();
@@ -96,15 +96,15 @@ namespace OdemeFormu
                 }
                 else
                 {
-                    lblSonuc.Text = "Geçersiz ödeme tipi seçildi.";
+                    lblSonuc.Text = "GeÃ§ersiz Ã¶deme tipi seÃ§ildi.";
                 }
             }
 
-            /* Aþaðýdaki if-else if yapýsý sonuca götürse de yeni özellikler eklenmesi zahmetlidir
-            // Reflection ve Factory Design Pattern dinamik kod yazmamýza imkan verir
+            /* AÃ¾aÃ°Ã½daki if-else if yapÃ½sÃ½ sonuca gÃ¶tÃ¼rse de yeni Ã¶zellikler eklenmesi zahmetlidir
+            // Reflection ve Factory Design Pattern dinamik kod yazmamÃ½za imkan verir
             
-            // pop-up iletiþim kutusu çýkarmak için:
-            // MessageBox.Show($"Seçtiðiniz ödeme tipi: {secilenOdemeTipi}");
+            // pop-up iletiÃ¾im kutusu Ã§Ã½karmak iÃ§in:
+            // MessageBox.Show($"SeÃ§tiÃ°iniz Ã¶deme tipi: {secilenOdemeTipi}");
             OdemeIslemi odemeIslemi;
             if (secilenOdemeTipi == "KrediKarti")
             {
