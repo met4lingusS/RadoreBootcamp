@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdemeFormuV3", "OdemeFormuV3\OdemeFormuV3.csproj", "{904D501F-7086-4303-8878-DA23FB3D823B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{904D501F-7086-4303-8878-DA23FB3D823B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904D501F-7086-4303-8878-DA23FB3D823B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904D501F-7086-4303-8878-DA23FB3D823B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904D501F-7086-4303-8878-DA23FB3D823B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {240E8E26-8443-417E-9A33-3F046E1E3866}
+	EndGlobalSection
+EndGlobal
